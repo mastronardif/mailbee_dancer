@@ -1,0 +1,18 @@
+# so that we can deploy with 'stackato push --no-prompt'
+name: mailbee-dancer
+
+services:
+  rabbitmq-bee: rabbitmq
+  
+requirements:
+  ppm:
+    - AnyEvent::RabbitMQ
+    - Net::RabbitFoot
+#   - Net::RabbitMQ
+    - JSON
+    - JSON::Parse
+    - CGI
+    - Test::More
+    - Test::Exception
+#  cpan:
+#    - Net::RabbitMQ

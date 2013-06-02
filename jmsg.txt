@@ -1,0 +1,15 @@
+&Operation='a Net::RabbitFoot'
+&To=jimmy@joeschedule.mailgun.org
+&recipient=joemail@joeschedule.mailgun.org
+&sender= mastronardif@gmail.com
+
+&body-plain=' <tags>http://nytimes.com</tags>'
+&message-headers=[
+["Received", "by 184.173.173.18 with SMTP mgrt -1057111050 Tue, 17 Jan 2012 18:56:20 +0000"],
+["Subject", "json joemailweb"],
+["From", "Frank Mastronardi <mastronardif@gmail.com>"], 
+["X-Mailer", "iPod Mail (9A405)"],
+["Message-Id", "<8950389B-9325-4430-83FB-343C91A319D9@gmail.com>"],
+["Date", "Tue, 17 Jan 2012 13:56:17 -0500"],
+["To", "\"joemail@joeschedule.mailgun.org\" <joemail@joeschedule.mailgun.org>"],
+["X-Mailgun-Spf", "Neutral"]]

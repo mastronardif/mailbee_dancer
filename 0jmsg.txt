@@ -1,0 +1,6 @@
+&Operation=flush
+&To=jimmy@joeschedule.mailgun.org
+&recipient=joemail@joeschedule.mailgun.org
+&sender= mastronardif@gmail.com
+
+&body-plain=' <tags>http://nytimes.com</tags>'

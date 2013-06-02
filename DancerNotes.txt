@@ -1,0 +1,64 @@
+stackato push -n
+
+https://metacpan.org/module/Dancer::Introduction
+
+
+git notes:
+
+ 40  git init
+ 41  touch README
+ 42  notepad README
+ 44  notepad DancerNotes.txt
+ 45  git add .
+ 46  git commit -m
+ 47  git commit -m "ta da"
+ 48  git push
+ 49  git remote add origin  https://github.com/mastro....
+
+ 67  git add .
+ 68  git commit -m "cha changes"
+ 69  git push
+
+stackato notes
+
+
+windows
+plackup  app.psgi
+
+http://localhost:5000/rabbit/job
+
+-- test
+
+./curl.exe http://dancer.stackato-fp4p.local/jm/publish22 \
+-F Operation=' Any::Event Publish' \
+-F message=\
+' <MYMAIL>\
+<HEADER>\
+From: jimmy@joeschedule.mailgun.org\
+To: Frank Mastronardi <mastronardif@gmail.com>\
+Subject: (123) joemailweb\
+In-Reply-To: <CAAAKxgKEqWkQ_v3kPRhY+3ATgM1ePYcCLtv+-1qtT3T=s=AYsA@mail.gmail.com>\
+References: <CAAAKxgKEqWkQ_v3kPRhY+3ATgM1ePYcCLtv+-1qtT3T=s=AYsA@mail.gmail.com>\
+Message-Id: <FU buddy mailbox-19950-1311902078-753076@www3.pairlite.com>\
+Date: Thu, 28 Jul 2011 21:14:38 -0400\
+MIME-Version: 1.0\
+Content-Type: text/html; charset="UTF-8"\
+\
+</HEADER>\
+<TAGS>\
+http://drudgereport.com\
+</TAGS>\
+
+<TAGS>
+http://slashdot.org
+</TAGS>
+
+</MYMAIL>'
+
+
+curl http://dancer-hello.stackato-pa3j.local/jm/publish22 /
+-F To='jimmy@joeschedule.mailgun.org' /
+-F subject='joemailweb' /
+-F recipient=jimmy@joeschedule.mailgun.org /
+-F sender=mastronardif@gmail.com /
+-F message-headers='[["Received", "by 184.173.173.18 with SMTP mgrt -1057111050; Tue, 17 Jan 2012 18:56:20 +0000"],["Subject", "stack ubunutu Mail Bee, curl joemailweb"],["From", "Frank Mastronardi <mastronardif@gmail.com>"], ["X-Mailer", "iPod Mail (9A405)"],["Message-Id", "<8950389B-9325-4430-83FB-343C91A319D9@gmail.com>"],["Date", "Tue, 17 Jan 2012 13:56:17 -0500"],["To", "\"joemail@joeschedule.mailgun.org\" <joemail@joeschedule.mailgun.org>"],["X-Mailgun-Spf", "Neutral"]]' -F body-plain='&lt;tags&gt;http://www.nytimes.com&lt;/tags&gt;'
