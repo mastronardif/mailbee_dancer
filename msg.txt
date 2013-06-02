@@ -1,0 +1,18 @@
+<MYMAIL>
+<HEADER>
+From: jimmy@joeschedule.mailgun.org
+To: Frank Mastronardi <mastronardif@gmail.com>
+Subject: Originated from dancer joemailweb
+In-Reply-To: <CAAAKxgKEqWkQ_vkPRhY+3ATgM1ePYcCLtv+-1qtT3T=s=AYsA@mail.gmail.com>
+References: <CAAAKxgKEqWkQ_v3kPRhY+3ATgM1ePYcCLtv+-1qtT3T=s=AYsA@mail.gmail.com>
+Message-Id: <FU buddy mailbox-19950-1311902078-753076@www3.pairlite.com>
+Date: Sun, 02 Jun 2013 21:14:38 -0400
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+</HEADER>
+<TAGS>
+http://nytimes.com
+</TAGS>
+
+</MYMAIL>
